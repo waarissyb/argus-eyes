@@ -6,7 +6,7 @@ var async          = require('async');
 var child_process  = require('child_process');
 var fs             = require('fs');
 var path           = require('path');
-var phantomjsPath  = require('phantomjs-prebuilt').path;
+var phantomjsPath  = require('phantomjs25-beta').path;
 var rimraf         = require('rimraf').sync;
 
 /**

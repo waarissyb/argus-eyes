@@ -14,7 +14,7 @@ install:
   - npm install
   - node --version
   - npm --version
-  - node -e "console.log(require('child_process').execFileSync(require('phantomjs-prebuilt').path, ['--version'], {encoding:'utf8'}));"
+  - node -e "console.log(require('child_process').execFileSync(require('phantomjs25-beta').path, ['--version'], {encoding:'utf8'}));"
 
 # Application test scripts
 test_script:
